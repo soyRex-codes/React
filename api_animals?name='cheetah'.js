@@ -17,7 +17,7 @@ import axios from "axios";
 //import './Header.js'; //not part of this file, just for reference how to import other files from the same directory for the current code execution
 
 const apiEndpoint = 'https://api.api-ninjas.com/v1/animals';
-const apiKey = 'Your Api key'; //get your free api key from https://api-ninjas.com/api/animals
+const apiKey = process.env.REACT_APP_API_KEY || 'Your Api key'; //get your free api key from https://api-ninjas.com/api/animals
 const name = 'cheetah';
 
 function App() {
