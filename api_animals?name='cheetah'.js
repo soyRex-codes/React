@@ -1,3 +1,17 @@
+/*
+Async/Await over .then(): Use async/await to write cleaner and more readable code.
+Error Handling: Always use try-catch to handle errors when using async/await.
+React-Specifics: Use useState for storing fetched data and useEffect for fetching data when the component mounts.
+*/
+/*
+Real-Life Analogy:
+Think of fetch as ordering food online:
+
+Fetch (Promise): You place an order and wait (asynchronous operation).
+Await: You check the delivery status periodically and pause other tasks until the food arrives.
+State Management (React): Once the food arrives, you serve it to the table (update state) and enjoy it (display it).
+*/
+
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 //import './Header.js'; //not part of this file, just for reference how to import other files from the same directory for the current code execution
